@@ -1,0 +1,6 @@
+jdk bin cd
+keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+appdata theke sdk env var sys below new path zipalign
+zipalign -v -p 4 path/to/unsigned.apk path/to/aligned.apk
+create double copy of aligned.apk then rename
+apksigner sign --ks path/to/keystore.jks --out path/to/signed.apk path/to/aligned.apk

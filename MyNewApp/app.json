@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "MyNewApp",
+    "slug": "MyNewApp",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "ae9de341-b67d-4dbd-9a37-32024cee8db6"
+      }
+    }
+  }
+}
